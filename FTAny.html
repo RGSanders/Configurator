@@ -1,0 +1,308 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>FT1 Flow Meter Configurator | Fox Thermal Instruments</title>
+    
+    <meta name="description" content="Get a quote by using the Fox Thermal FT1 Configurator for configuring an FT1 flow meter."/>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ft1-style.css" rel="stylesheet">
+    <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="well">
+    <form action="action.php" id="form" method="post" name="form">
+      <h1>Model FT2A Inline</h1>
+<div class="calculation">
+      <div id="FT1_Model">          
+          <var id="mCode">Product Code</var>
+      </div>
+</div>
+<script>
+var pageBuild = ["<p>Hello</>", "<b>is it me you're looking for</b>", "<i>I can see it in your eyes</i>"];
+var page = pageBuild.join("\n");
+
+
+var IP = ['Nipping Global Variable', 'Sneaky Forin', 'Bulging Blocking Script'],
+GH = ['Switch Blocks', 'Pesky Gnat', 'Aiedra'],
+inhabitants = [IP,GH];
+
+function populationGetterConcat(popn) {
+  var list = '';
+  for (var i = 0, x = popn.length; i < x; i++) {
+    for (var j = 0; j < popn[i].length; j++) {
+      list += (popn[i][j] + ', ');
+    }
+  }
+  return list;
+}
+
+populationGetterConcat(inhabitants);
+
+function populationGetterJoin(popn) {
+  var list = [];
+  for (var i = 0, x = popn.length; i < x; i++) {
+    list.push(popn[i].join(', '));
+  }
+  return list.join(', ');
+}
+
+populationGetterJoin(inhabitants);
+
+
+SpeedTest.prototype = {
+  startTest: function() {
+    if (this.testImplement(this.testParams) === false) {
+      alert('Test failed with those parameters.');
+      return;
+    }
+    var beginTime, endTime, sumTimes = 0;
+    for (var i = 0, x = this.repetitions; i < x; i++) {
+      beginTime = +new Date();
+      this.testImplement(this.testParams);
+      endTime = +new Date();
+      sumTimes += endTime - beginTime;
+    }
+    this.average = sumTimes / this.repetitions;
+    return console.log('Average execution across ' + this.repetitions + ': ' + this.average);
+  }
+};
+
+function SpeedTest(testImplement, testParams, repetitions){
+  this.testImplement = testImplement;
+  this.testParams = testParams;
+  this.repetitions = repetitions || 10000;
+  this.average = 0;
+}
+
+
+var concatTest = new SpeedTest(populationGetterConcat, inhabitants, 100000);
+concatTest.startTest();
+var stringI = populationGetterJoin(inhabitants);
+console.log(stringI);
+</script>
+<div class="row">
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+</div>
+<div class="row">
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+</div>
+<div class="row">
+  <div class="col-md-4 grid">.col-md-4</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+  <div class="col-md-1 grid">.col-md-1</div>
+</div>
+<!--Meter Name var meterName-->
+
+<!--Meter Code var meterCode-->
+
+<!--Meter Quantity affects Tag amount var inputQuantity-->
+<!--Input class="fox-input"-->
+<!--End of Quantity--> 
+
+<!--Gas affects STP var selectGas-->
+<!--Select class="fox-select"-->
+<!--End of Gas--> 
+
+<!--Pipe Shape for Insertion var radioShape-->
+<!--Radio class="fox-radio"-->
+<!--End of Pipe Shape-->
+
+<!--Size Units var selectSize-->
+<!--Select class="fox-select"-->
+<!--optgroup to separate options-->
+<!--End of Size Units-->
+
+<!--Fitting Height var inputFittingHeight-->
+<!--Input class="fox-input"-->
+<!--End of Fitting-->
+
+<!--Pipe Size for Insertion and Round var inputSize-->
+<!--Input class="fox-input"-->
+<!--End of Pipe Size-->
+
+<!--Flowbody for Inline var selectFlowbody-->
+<!--Select class="fox-select"-->
+<!--End of Flowbody-->
+
+<!--Size Calculation var sizeCalculation-->
+<!--End Size Calculation class="fox-calculation"-->
+
+<!--Max Flow var selectFlow, inputFlow-->
+<!--Select and Input-->
+<!--End of Max Flow-->
+
+<!--Velocity Calculation needs Gas, Size Calculation, STP var velocityCalculation-->
+<!--End of Velocity Calculation class="fox-calculation"-->
+
+<!--Pressure var selectPressure, inputPressure-->
+<!--Select and Input-->
+<!--End of Pressure-->
+
+<!--Temperature var selectTemperature, inputTemperature-->
+<!--Select and Input-->
+<!--End of Temperature-->
+
+<!--STP selected based on Gas by default var selectSTP-->
+<!--Custom STP-->
+  <!--Select and Input var selectCustomPressure, inputCustomPressure-->
+  <!--Select and Input var selectCustomTemperature, inputCustomTemperature-->
+<!--End of STP-->
+
+<!--4mA to 20mA for FT1 var select420-->
+<!--Select class="fox-select"-->
+  <!--Flow Select and Input var selectFlow420, inputFlow420-->
+  <!--Temp Select and Input var selectTemp420, inputTemp420-->
+<!--End of 4mA to 20mA-->
+
+<!--Material for FT2A and FT3 var selectMaterial-->
+<!--Select class="fox-select"-->
+<!--End of Material-->
+
+<!--Enclosure Remote gives more Options-->
+<!--Select class="fox-select"-->
+<!--End of Enclosure-->
+
+<!--Communication-->
+<!--Select class="fox-select"-->
+<!--End of Communication-->
+
+<!--NRT-->
+<!--Select class="fox-select"-->
+<!--End of NRT-->
+
+<!--Options-->
+    <legend>Select Options</legend>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+           <input data-toggle="tooltip" name="100657" title=
+           "Stainless Steel Tag: Engraved stainless steel tag connected to the flow meter with a stainless steel wire; up to 20 characters." type="checkbox" 
+           value="100657 - Stainless Steel Tags"> 100657 - Stainless Steel Tags<br />
+          <input data-toggle="tooltip" name="101364" title=
+          "Extra Instruction Manual: one manual is supplied with each with each flow meter. Order the additional manuals using this part number." type=
+          "checkbox" value="101364 - Extra Instruction Manual"> 101364 - Extra Instruction Manual<br />
+          <div class="remoteonly">
+            <input class="remoteonly" data-toggle="tooltip" name="105758" title=
+            "Remote Enclosure Mounting Kit: bracket to mount the housing when purchasing a remote enclosure." type="checkbox" value=
+            "105758 - Remote Enclosure Mounting Kit"> 105758 - Remote Enclosure Mounting Kit<br />
+          </div><input data-toggle="tooltip" name="890000" title=
+          "Flow meter cleaned and bagged for Oxygen service: highly recommended for flow meter being used in Oxygen service. Cleaning is performed to industry standards."
+          type="checkbox" value="890000 - Flowmeter cleaned and bagged for Oxygen service"> 890000 - Flowmeter cleaned and bagged for Oxygen service<br />
+          <input data-toggle="tooltip" name="999992" title="Certificate of Compliance: certifies the product is build to specification." type="checkbox" value=
+          "999992 - Certificate of Conformance"> 999992 - Certificate of Conformance<br />
+          <input data-toggle="tooltip" name="999995" title=
+          "Certificate of Origin: Certificate of Origin stamped by local Chamber of Commerce stating products manufactured at Fox Thermal Instruments, Marina, California, USA"
+          type="checkbox" value="999995 - Certificate of Origin"> 999995 - Certificate of Origin<br />
+					<input data-toggle="tooltip" name="104870" title=""  type="checkbox" value="104870 - USB Cable"> 104870 - USB Cable<br />
+					<input data-toggle="tooltip" name="102299" title="Makes housing upright in vertical pipes"  type="checkbox" value="102299 - 90 degree elbow kit"> 102299 - 90 degree elbow kit<br />
+          <input data-toggle="tooltip" name="990056" title="Canadian Registration Number (CRN) engraved on flow body"  type="checkbox" value="990056 - Canadian Registration Number (CRN) engraved on flow body"> 990056 - Canadian Registration Number (CRN) engraved on flow body<br />
+          <div class="remoteonly">
+            <input class="remoteonly" data-toggle="tooltip" name="101570" title=
+            "5 conductor, 18 AWG PVC shielded cable: used to connect the sensor junction box with the FT3 electronics enclosure (display enclosure) when a remote configuration is ordered. Specify the number of feet required. The maximum cable length between the sensor and the electronics is 100 feet."
+            type="checkbox" value="101570 - 5 conductor, 18 AWG PVC shielded cable for remote"> 101570 - 5 conductor, 18 AWG PVC shielded cable for remote.<br />
+          </div><!--Specify feet (100' max)-->
+          <div id="hiddenfeet">
+            Feet of cable: <input data-toggle="tooltip" name="cCable" placeholder="Enter Length In Feet..." title="Maximum is 100 feet" type="text"> 
+            <span id="cCableerr"></span>
+          </div>
+				</td>
+        </tr>
+        </tbody>
+        </table><span id="errMessage"></span>
+<!--End of Options-->
+<br />
+<!--Submit Button-->
+      <button id="submitbutton" type="button">Submit</button>
+<!--End of Submit Button-->
+<!--Modal-->
+      <div class="modal hide fade" id="popForm">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal" type="button">&times;</button>
+          <h3>Send to Fox:</h3>
+        </div>
+        <div class="modal-body">
+          <div>
+          <label for="custname">Name:</label>
+          <input class="reqsend" id="custname" name="custname" placeholder="Name" type="text">
+          <br />
+          <span id="custnameerr"></span>
+          </div>
+          <div>
+          <label for="custcompany">Company:</label> 
+          <input class="reqsend" id="custcompany" name="custcompany" placeholder="Company" type="text">
+          <br />
+          <span id="custcompanyerr"></span>
+          </div>
+          <div>
+          <label for="custemail">Email:</label> 
+          <input class="reqsend" id="custemail" name="custemail" placeholder="Email" type="text">
+          <br />
+          <span id="custemailerr"></span>
+          </div>
+          <div>
+          <label for="custphone">Phone:</label>
+          <input id="custphone" name="custphone" placeholder="Phone:" type="text">
+          <br />
+          <span id="custphoneerr"></span>
+          </div>
+          <div>
+          <label for="custcountry">Country:</label>
+          <input class="reqsend" id="custcountry" name="custcountry" placeholder="Country" type="text">
+          <br />
+          <span id="custcountryerr"></span>
+          </div>
+          <div>
+          <label for="custpostal">Postal Code:</label>
+          <input class="reqsend" id="custpostal" name="custpostal" placeholder="Postal Code" type="text">
+          <br />
+          <span id="custpostalerr"></span>
+          </div>
+          <div>
+          <label for="custcomments">Comments:</label>
+          <textarea id="custcomments" name="custcomments"></textarea>
+          </div>
+          <div>
+          <label for="custhear">How did you hear about us?</label>
+          	<select size="1" name="custhear" id="custhear">
+          		<option>Please Select</option>
+            	<option>Internet Search</option>
+            	<option>Friend/colleague</option>
+            	<option>Magazine or other publication</option>
+            	<option>eNewsletter</option>
+            	<option>Online directory</option>
+                <option>Social Media</option>
+            	<option>Other</option>
+         	</select>
+          </div>
+      </div>
+        <div class="modal-footer">
+          <button id="sendtofox" type="button">Send</button>
+        </div>
+      </div>
+<!--End of Modal-->
+    </form>
+</div>
+</div>

@@ -1,0 +1,297 @@
+/*Additional stylings by Patrick */
+.sm-input {
+    width: 80px;
+}
+
+.fox-select{
+display: block;
+  width: 100%;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.fox-label{
+    display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  margin-left: 7px;
+  float: right;
+}
+.fox-row{
+ border-bottom: 2px inset #eee;
+}
+
+.footer {
+    position: absolute;
+    bottom : 0;
+    height: 5px;
+    clear:both;
+
+} 
+.ft1-wrap{
+    max-width: 660px;
+    margin: 30px auto;
+}
+.ft1-wrap a{
+    max-width:250px;
+    margin: 20px auto;
+}
+.login-wrap, .forgot-wrap, .app-wrap, .adm-wrap,.adm-wrap-big{
+    margin: 10px auto;
+    min-height: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+.forgot-wrap{
+    max-width: 630px;
+}
+.login-wrap{
+    max-width: 600px;
+}
+.app-wrap{
+    max-width:700px;
+    padding:0px 25px 25px 25px;
+}
+.adm-wrap{
+    max-width:900px;
+    padding:0px 25px 25px 25px;
+}
+.adm-wrap-big{
+    max-width:1355px;
+    padding:0px 20px 20px 20px;
+}
+#Create_Account, #Go-Back, #Reset_Password,#Enter_Password{
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    float:right;
+}
+#Project_Name,.sm-input, .fox-select{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#Save_Config{
+   border: 2px solid #ccc;
+   background-color: #077407;
+}
+#Save_Config:hover{
+   background-color: #022A02;
+}
+#Enter_Password{
+    width:150px;
+}
+.fox-app-list>tbody>tr{
+border:solid 2px #ccc;
+}
+.fox-app-list>tbody>tr>th:hover, .fox-app-list>tbody>tr>th{
+background-color: #eee;
+}
+.fox-app-list>tbody>tr{
+background-color: #fff;
+}
+.fox-app-list>tbody>tr:hover{
+background-color: rgba(51, 122, 183, 0.05);
+}
+.fox-app-list>tbody>tr>td,.fox-app-list>tbody>tr>th {
+padding:10px;
+border:solid 1px #ccc;
+box-shadow:2px 2px 2px #eee;
+font-weight: 600;
+color: #3e5272;
+}
+.fox-app-label{
+    font-size: 20px;
+    font-weight: bold;
+    color:#3e5272;
+    text-shadow: 1px 2px #ccc;
+}
+.fox-table{
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+.fox-reset-td-left{
+    width:195px;
+}
+.login-label{
+    float: right;
+    font-size: 16px;
+}
+
+.application_id {
+    position:absolute;
+    top: 0px;
+    font-size: 20px;
+    color:#a94442;
+    background-color: #eee;
+    border: 1px solid #e3e3e3;
+    padding: 5px;
+}
+.login-wrap span:not(.glyphicon){
+    color: #a94442;
+}
+.modal-app-list{
+    width:750px;
+}
+/*PHP check texts*/
+#email_exists, #check_login, #reset_login, #forgot_login, #reset_token, #reset_id, #reset_login, .check-hide{
+    display:none;
+}
+
+.grid{
+    border: 2px solid #333;
+}
+
+@media screen {
+    table {
+        padding: 5px;
+        font-size: 16px;
+        margin: 5px;
+        word-spacing: 2px;
+    }
+    td{
+        margin-right: 5px;
+        margin-left: 2px;
+        margin-bottom: 2px;
+    }
+    span:not(.glyphicon) {
+        font-weight: bolder;
+    }
+    span.success {
+        color: #3c763d;
+    }
+    #FT1_Model{
+        color: #3e5272;
+    }
+    .no-jscript, .calculation, .failure{
+        font-weight: bolder;
+        font-family: tahoma;
+        font-size: 14px;
+        color:#a94442;
+    }
+    .calculation {
+        background-color: #eee;
+        border: 1px solid #e3e3e3;
+        padding:3px;
+    }
+    .last-login{
+        color:#2e6da4
+    }
+    .load {
+        font-weight: bolder;
+        font-family: tahoma;
+        font-size: 14px;
+    }
+    span.glyphicon {
+        font-size: 1.2em;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    span.glyphicon:hover {
+        opacity: .8;
+        cursor: pointer;
+    }
+
+    .radio-button-tabs input[type="radio"] {
+        display: none; 
+    }
+
+    .radio-button-tabs label {
+        background-color: #eee;
+        border: 1px solid #ddd;
+        color: #999;
+        display: inline-block;
+        font-family: inherit;
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-left:10px;
+        padding: 6px 12px;
+    
+        -moz-border-radius: 12px;
+        -webkit-border-radius: 12px;
+        border-radius: 12px;
+        -moz-box-shadow: #ccc 0 1px 1px;
+        -webkit-box-shadow: #ccc 0 1px 1px;
+        box-shadow: #ccc 0 1px 1px;
+    }
+    .radio-button-tabs label:hover{
+        cursor: pointer;
+    }
+    .radio-button-tabs input[type="radio"]:checked + label { 
+        color: #fff;
+        background-color: #337ab7;
+        border: 1px solid #3e5272;
+    
+        -webkit-box-shadow: 0px 0px 9px #3e5272;
+        -moz-box-shadow: 0px 0px 9px #3e5272;
+        -ms-box-shadow: 0px 0px 9px #3e5272;
+        -o-box-shadow: 0px 0px 9px #3e5272;
+        box-shadow: 0px 0px 9px #3e5272;
+    }
+    
+}
+@media print {
+    label {
+        font-weight: lighter;
+    }
+    table {
+        padding: 5px;
+        font-size: 12px;
+        margin: 5px;
+    }
+    input, select,
+    .fox-select{
+        background: none;
+        border: none;
+        box-shadow: solid 0px;
+        padding:0px;
+        font-weight: bolder;
+        border-radius: none;
+        border-style: solid;
+    }
+    select, .fox-select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+    }
+    .calculation {
+        background-color: #eee;
+        border: 1px solid #e3e3e3;
+    }
+    span.glyphicon,
+    input:not(:checked) + label,
+    input[type="checkbox"]:not(:checked),
+    input[type="radio"]:not(:checked),
+    input:not(:checked) + .hide_to_print {
+        display: none;
+    }
+    .text-to-print {
+        text-align: right;
+    }
+    #Show_App_ID {
+        display:inline;
+    }
+    .well, .fox-row{
+        border:none;
+    }
+}
+
