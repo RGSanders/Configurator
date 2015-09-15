@@ -1,8 +1,10 @@
+/*Fox Styles Patrick Cool (c) 2015 Licensed under MIT */
 .fox-label{
-
+display: table-cell;
+vertical-align: left;
 }
 .fox-select{
-	
+
 }
 .fox-input{
 	
@@ -12,4 +14,20 @@
 }
 .fox-calculation{
 	
+}
+.fox-remove{
+
+}
+
+/*sticky footer*/
+html,
+body{
+	height:100%;
+}
+
+/*Media Queries*/
+
+@media (max-width: 768px){
+
+
 }
